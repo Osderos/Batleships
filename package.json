@@ -1,0 +1,33 @@
+{
+  "name": "battleships",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osderos/Battleships.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Osderos/Battleships/issues"
+  },
+  "homepage": "https://github.com/Osderos/Battleships#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "css-loader": "^6.6.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.0",
+    "style-loader": "^3.3.1"
+  }
+}
